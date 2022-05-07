@@ -1,4 +1,29 @@
-* {
+.challenge2 {
   font-family: 'Water Brush', cursive;
+  background-color: green;
   
 }
+
+li{
+  list-style-type: none;
+  margin: 2vw 0;
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+}
+
+nav{
+  width: 100vw;
+}
+
+ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  display: flex;  
+}
+
