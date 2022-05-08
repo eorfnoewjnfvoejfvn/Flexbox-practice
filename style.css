@@ -1,29 +1,84 @@
+
+/* Code that applys to everything on challenge2 page (inside the body - exclude navbar) */
+
 .challenge2 {
-  font-family: 'Water Brush', cursive;
+  font-family: 'Roboto', sans-serif;
   background-color: green;
+  margin: 0 auto;
   
 }
 
-li{
+/* Navagation bar */
+
+nav li{
   list-style-type: none;
-  margin: 2vw 0;
-  font-size: 3vh;
+  margin: 1vw 0;
+  
+  font-size: 2vh;
 }
 
-a{
+nav a{
   text-decoration: none;
   color: black;
-  padding: 2vw;
+  font-family: monospace;
+
+  padding: 1vw;
 }
 
 nav{
   width: 100vw;
+  background-color: lightgreen;
 }
 
-ul{
+nav ul{
   display: block;
   margin: 0;
   padding: 0;
+  
   display: flex;  
 }
 
+nav a:hover{
+  background-color: lightgreen;
+  color: white;
+  border: 1px white solid;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul{
+    flex-direction: column;
+  }
+  
+  nav a{
+    display: block;
+  }
+  
+  nav li{
+    margin: 0;
+  }
+  
+  button{
+    display: block;
+    
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: lightgreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    align-self: flex-start;
+  }
+}
+
+/* End of nav */
+
+
+/* Start of paragraph in challenge 2 */
+
+.challenge-two-text {
+  padding: 5px 20px;
+  background-color: lightgreen;
+}
+
+/* End of paragraph in challenge 2  */
