@@ -1,3 +1,7 @@
+* {
+  margin: 0 auto;
+}
+
 
 /* Code that applys to everything on challenge2 page (inside the body - exclude navbar) */
 
@@ -49,17 +53,16 @@ nav a:hover{
     flex-direction: column;
   }
   
-  nav a{
+  nav ul {
     display: block;
   }
   
   nav li{
-    margin: 0;
+    margin: 0 auto;
   }
   
   button{
     display: block;
-    
     padding: 2vw;
     font-size: 3vh;
     background-color: lightgreen;
@@ -82,3 +85,34 @@ nav a:hover{
 }
 
 /* End of paragraph in challenge 2  */
+
+/* Challenge 3 */
+
+.three ul li {
+  margin: auto;
+  padding: 20px;
+}
+
+
+.bodythree {
+  background-color: green;
+}
+
+.chal-3 {
+  background-color: aquamarine;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.poop {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  background-color: thistle;
+}
