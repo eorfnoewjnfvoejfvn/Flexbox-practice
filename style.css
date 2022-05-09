@@ -80,8 +80,16 @@ nav a:hover{
 /* Start of paragraph in challenge 2 */
 
 .challenge-two-text {
-  padding: 5px 20px;
+  padding: 10px;
   background-color: lightgreen;
+}
+
+.challenge-two-text h1, .challenge-two-text h3, .challenge-two-text p {
+  padding: 10px;
+}
+
+.challenge-one h1, .challenge-one ul, .challenge-one h5, .challenge-one img {
+  background-color: purple;
 }
 
 /* End of paragraph in challenge 2  */
