@@ -5,7 +5,7 @@
 
 /* Code that applys to everything on challenge2 page (inside the body - exclude navbar) */
 
-.challenge2 {
+. {
   font-family: 'Roboto', sans-serif;
   background-color: green;
   margin: 0 auto;
